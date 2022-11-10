@@ -1,1 +1,1 @@
-# joomla_4_template
+Joomla CMS v. 4 base template
