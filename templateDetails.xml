@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="template" version="4.2" client="site" method="upgrade">
+    <name>j4starter</name>
+    <version>1.0.0</version>
+    <creationDate>2023-08-31</creationDate>
+    <author>Mykhailo Kulyk</author>
+    <authorEmail>info@profisite.com.ua</authorEmail>
+    <description>Joomla 4.2/5.0 template</description>
+    <inheritable>1</inheritable>
+    <targetPlatform name="joomla" version="4.2" />
+    <targetPlatform name="joomla" version="5.0" />
+    <media destination="templates/site/j4starter" folder="media">
+        <folder>assets</folder>
+        <folder>css</folder>
+        <folder>fonts</folder>
+        <folder>images</folder>
+        <folder>js</folder>
+        <folder>scss</folder>
+    </media>
+    <files>
+        <folder>config</folder>
+        <folder>html</folder>
+        <folder>layouts</folder>
+        <folder>src</folder>
+        <filename>index.html</filename>
+        <filename>index.php</filename>
+        <filename>error.php</filename>
+        <filename>favicon.ico</filename>
+        <filename>joomla.asset.json</filename>
+        <filename>templateDetails.xml</filename>
+    </files>
+    <positions>
+        <position>menu</position>
+        <position>breadcrumbs</position>
+        <position>header</position>
+        <position>left</position>
+        <position>right</position>
+        <position>footer</position>
+        <position>debug</position>
+    </positions>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/tpl_j4starter.ini</language>
+        <language tag="en-GB">en-GB/tpl_j4starter.sys.ini</language>
+    </languages>
+    <config>
+        <fields name="params">
+            <fieldset name="advanced">
+                <field type="spacer" hr="true"/>
+                <!-- HEADER CODE -->
+                <field name="header_code" type="textarea" default=""
+                       cols="130" rows="25"
+                       label="TPL_HEADER_CODE"
+                       description="TPL_HEADER_CODE_DESC"
+                       filter="raw"/>
+                <!-- HEADER CODE END -->
+                <!-- FOOTER CODE -->
+                <field name="footer_code" type="textarea" default=""
+                       cols="130" rows="25"
+                       label="TPL_FOOTER_CODE"
+                       description="TPL_FOOTER_CODE_DESC"
+                       filter="raw"/>
+                <!-- FOOTER CODE END -->
+            </fieldset>
+        </fields>
+    </config>
+</extension>

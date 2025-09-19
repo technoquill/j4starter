@@ -1,0 +1,162 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "name": "j4starter",
+  "version": "1.0.0",
+  "description": "This file contains details of the assets used by default.",
+  "license": "GPL-2.0-or-later",
+  "assets": [
+    {
+      "name": "template.fonts.googleapis",
+      "description": "Font preconnect googleapis",
+      "type": "style",
+      "uri": "https://fonts.googleapis.com",
+      "version": "",
+      "package": "google-font",
+      "weight": 1,
+      "attributes": {
+        "rel": "preconnect"
+      }
+    },
+    {
+      "name": "template.fonts.gstatic",
+      "description": "Font preconnect gstatic",
+      "type": "style",
+      "uri": "https://fonts.gstatic.com",
+      "version": "",
+      "package": "google-font",
+      "weight": 1,
+      "attributes": {
+        "rel": "preconnect",
+        "crossorigin": true
+      }
+    },
+    {
+      "name": "template.fira-font.css",
+      "description": "Fira Font",
+      "type": "style",
+      "uri": "https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+      "version": "1.0.0",
+      "package": "google-font",
+      "weight": 1,
+      "attributes": {
+      }
+    },
+    {
+      "name": "template.bootstrap.css",
+      "description": "Bootstrap 5.",
+      "type": "style",
+      "uri": "bootstrap.css",
+      "version": "5.3.3",
+      "weight": 2
+    },
+    {
+      "name": "template.fontawesome.css",
+      "description": "Fontawesome 6",
+      "type": "style",
+      "uri": "fontawesome.css",
+      "version": "6.7.2",
+      "weight": 3
+    },
+    {
+      "name": "template.style.css",
+      "description": "The default css style to use.",
+      "type": "style",
+      "uri": "template.css",
+      "version": "1.0.0",
+      "weight": 4
+    },
+
+    {
+      "name": "template.jquery.js",
+      "description": "jquery ",
+      "type": "script",
+      "uri": "jui/jquery.min.js",
+      "version": "3.7.1",
+      "weight": 1,
+      "attributes": {
+      }
+    },
+    {
+      "name": "template.jquery-migrate.js",
+      "description": "jquery-migrate ",
+      "type": "script",
+      "uri": "jui/jquery-migrate.min.js",
+      "version": "3.5.2",
+      "weight": 2,
+      "attributes": {
+      }
+    },
+    {
+      "name": "template.jquery-noconflict.js",
+      "description": "jquery-noconflict",
+      "type": "script",
+      "uri": "jui/jquery-noconflict.js",
+      "version": "1.0.0",
+      "weight": 3,
+      "attributes": {
+      }
+    },
+    {
+      "name": "template.bootstrap-bundle.js",
+      "description": "Bootstrap bundle JS.",
+      "type": "script",
+      "uri": "vendor/bootstrap/bootstrap.bundle.min.js",
+      "version": "5.3.3",
+      "weight": 5,
+      "attributes": {
+      }
+    },
+    {
+      "name": "template.slideout.js",
+      "description": "A touch slideout navigation menu for your mobile web apps",
+      "type": "script",
+      "uri": "media/templates/site/j4starter/assets/slidereveal/js/slidereveal.js",
+      "version": "",
+      "package": "slideout",
+      "weight": 6,
+      "attributes": {
+        "defer": true
+      }
+    },
+    {
+      "name": "template.template.js",
+      "description": "The file containing the javascript for this template.",
+      "type": "script",
+      "uri": "template.js",
+      "version": "1.0.0",
+      "attributes": {
+        "defer": true
+      }
+    },
+    {
+      "name": "template.script.js",
+      "description": "",
+      "type": "script",
+      "uri": "scripts.js",
+      "version": "1.0.0",
+      "attributes": {
+        "defer": true
+      }
+    },
+    {
+      "name": "search.tools",
+      "type": "style",
+      "uri": "system/searchtools/searchtools.min.css"
+    },
+    {
+      "name": "jquery",
+      "type": "script",
+      "uri": ""
+    },
+    {
+      "name": "jquery-migrate",
+      "type": "script",
+      "uri": ""
+    },
+    {
+      "name": "jquery-noconflict",
+      "type": "script",
+      "uri": ""
+    }
+  ]
+}

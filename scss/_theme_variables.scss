@@ -1,0 +1,30 @@
+// --------- Global Theme Variables
+
+@import "partials/root";
+
+$font-family: var(--font-family);
+
+// ------------- Theme Icon Fonts
+// Fontawesome
+$fa-font: var(--fa-font-icon);
+$fa-font-brands: var(--fa-brands-font-family);
+
+// ------------- Theme Colors
+
+
+// ------ START OF BOOTSTRAP CORE --------------------------------------------------------------------------------------
+// Import Bootstrap Breakpoints
+@import "vendor/bootstrap/mixins/breakpoints";
+// Import Functions For Bootstrap Variables
+@import "vendor/bootstrap/functions";
+// Import Bootstrap variables
+@import "vendor/bootstrap/variables";
+@import "vendor/bootstrap/variables-dark";
+
+// ----- END OF BOOTSTRAP CORE -----------------------------------------------------------------------------------------
+
+// Bootstrap 5 override
+
+
+
+
